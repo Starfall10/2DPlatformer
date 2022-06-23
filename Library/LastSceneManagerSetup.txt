@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/2D Platformer Assets/Starter_Scene.unity
+- path: Assets/Scenes/Testing.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/yusei/Unity/2D platformer
+C:/Users/yusei/Unity/2D-platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50047
-Successfully changed project path to: C:/Users/yusei/Unity/2D platformer
-C:/Users/yusei/Unity/2D platformer
+60385
+Successfully changed project path to: C:/Users/yusei/Unity/2D-platformer
+C:/Users/yusei/Unity/2D-platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/yusei/Unity/2D platformer/Assets
+[Subsystems] Discovering subsystems at path C:/Users/yusei/Unity/2D-platformer/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005584 seconds.
+Registered in 0.003235 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (149ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (433ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (191ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (253ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010407 seconds.
+Registered in 0.004229 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.583 seconds
+- Completed reload, in  1.349 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1584ms)
-		BeginReloadAssembly (210ms)
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1297ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1106ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (468ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (462ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.1 MB.
 System memory in use after: 96.0 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 3.712200 ms (FindLiveObjects: 0.199600 ms CreateObjectMapping: 0.076500 ms MarkObjects: 3.283200 ms  DeleteObjects: 0.151600 ms)
+Total: 3.942100 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.077500 ms MarkObjects: 3.506900 ms  DeleteObjects: 0.154500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,13 +135,90 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2D Platformer Assets
-  artifactKey: Guid(8a46c726a3286ec4fb9beaf8203f36b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Assets using Guid(8a46c726a3286ec4fb9beaf8203f36b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8dae5519e716237f9b1804c6472007') in 0.005028 seconds 
+  path: Assets/Scenes/Testing.unity
+  artifactKey: Guid(faf8879b2f7072b46ad188b0c204cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Testing.unity using Guid(faf8879b2f7072b46ad188b0c204cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6426e4232318900153f186d8b74d8cff') in 0.036219 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.467595 seconds.
-  path: Assets/2D Platformer Assets/Starter_Scene.unity
-  artifactKey: Guid(12eaea94eaebc5e459e49753ddfd1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Assets/Starter_Scene.unity using Guid(12eaea94eaebc5e459e49753ddfd1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d7b6301f099b4cf62b096b0baaacaf') in 0.015799 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 32.750229 seconds.
+  path: Assets/2D Platformer Assets/Graphics
+  artifactKey: Guid(75c810de16a0ee84fbb6e24f55502cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics using Guid(75c810de16a0ee84fbb6e24f55502cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9942c74fc603259bbf027e9104c99293') in 0.002925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.733572 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player
+  artifactKey: Guid(d8561e93fb0885643a928ae0cc44de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player using Guid(d8561e93fb0885643a928ae0cc44de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df38bdeab61aae299dfac0f7c7bd1165') in 0.004170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038228 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-hurt.png
+  artifactKey: Guid(0fee9a55d5bdb214980ef65ca7f08461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-hurt.png using Guid(0fee9a55d5bdb214980ef65ca7f08461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b90f5395d4ac3496dc9397dd24580e') in 0.164004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-run.png
+  artifactKey: Guid(e584515e5484cf8449d6aaaef8f6c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-run.png using Guid(e584515e5484cf8449d6aaaef8f6c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1366a40a34892815313a5f7727f64673') in 0.046529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-jump.png
+  artifactKey: Guid(c75bbcc065e590849ab334ba2c39e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-jump.png using Guid(c75bbcc065e590849ab334ba2c39e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557f4357f727c528edee32bf38cc3022') in 0.018692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c406272ab74b077d1b1e10a3e0384439') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.256776 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-climb.png
+  artifactKey: Guid(c179a7ff3bcc4ad439e0d86f33b96480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-climb.png using Guid(c179a7ff3bcc4ad439e0d86f33b96480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba1a2e62b543af6d3f34ba100d0d2b7') in 0.025827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-crouch.png
+  artifactKey: Guid(83a68f06629a6f649bf9d5572c17e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-crouch.png using Guid(83a68f06629a6f649bf9d5572c17e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e10d28acad9de15241da0e9bfe6f35') in 0.020855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.459135 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61f76e1bda919f02256f77c2c7b4091') in 0.015122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.097206 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3094176d0825aef091f893ed7155336') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.095048 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4fdf32419c3b24cac82417abd6edd0') in 0.013686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.783582 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363f06763b5cc12d4afd84147cf652ce') in 0.012173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.977467 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae2177652377d9464824e289c55ce85') in 0.012069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.643144 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e83251d4201b13c512b4cb34e3a3908') in 0.029074 seconds 
