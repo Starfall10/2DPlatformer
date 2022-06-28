@@ -291,6 +291,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1888116234}
+  farBackground: {fileID: 270509996}
+  middleBackground: {fileID: 99542106}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
