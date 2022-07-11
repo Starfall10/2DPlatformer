@@ -12,43 +12,76 @@ public class EnemyController : MonoBehaviour
 
     private Rigidbody2D theRB;
     public SpriteRenderer theSR;
+    private Animator anim;
 
+    public float moveTime, waitTime;
+    private float moveCount, waitCount;
 
     // Start is called before the first frame update
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
         leftPoint.parent = null;
         rightPoint.parent = null;
 
         movingRight = true;
+
+        moveCount = moveTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(movingRight)
+        if(moveCount > 0)
         {
-            theRB.velocity = new Vector2(moveSpeed, theRB.velocity.y);
+            moveCount -= Time.deltaTime;
 
-            theSR.flipX = true;
-
-            if(transform.position.x > rightPoint.position.x)
+            if(movingRight)
             {
-                movingRight = false;
+                theRB.velocity = new Vector2(moveSpeed, theRB.velocity.y);
+
+                theSR.flipX = true;
+
+                if(transform.position.x > rightPoint.position.x)
+                {
+                    movingRight = false;
+                }
             }
+            else
+            {
+                theRB.velocity = new Vector2(-moveSpeed, theRB.velocity.y);
+
+                theSR.flipX = false;
+
+                if(transform.position.x < leftPoint.position.x)
+                {
+                    movingRight = true;
+                }
+            }
+
+            if(moveCount <= 0)   
+            {
+                waitCount = Random.Range(waitTime * .75f, waitTime * 1.25f);
+            }
+
+            anim.SetBool("isMoving", true);
         }
-        else
+
+        else if (waitCount > 0)
         {
-            theRB.velocity = new Vector2(-moveSpeed, theRB.velocity.y);
+            waitCount -= Time.deltaTime;
+            theRB.velocity = new Vector2 (0f, theRB.velocity.y);
 
-            theSR.flipX = false;
-
-            if(transform.position.x < leftPoint.position.x)
+            if(waitCount <= 0)
             {
-                movingRight = true;
+                moveCount = Random.Range(moveTime * .75f, moveTime * 1.25f);
             }
+            anim.SetBool("isMoving", false);
         }
-    }
+
+        
+    }   
+
 }
