@@ -43,12 +43,13 @@ public class Pickup : MonoBehaviour
                 if(PlayerHealthController.instance.currentHealth != PlayerHealthController.instance.maxHealth)
                 {
                     PlayerHealthController.instance.HealPlayer();
-                }
+                
 
                 isCollected = true;
                 Destroy(gameObject);
 
                 Instantiate(pickupEffect, transform.position, transform.rotation);
+                }
             }
         }
     }
