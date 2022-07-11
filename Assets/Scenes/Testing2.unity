@@ -1074,7 +1074,7 @@ MonoBehaviour:
   heartEmpty: {fileID: -4390673095631447188, guid: d9a616f95048ea84e8fc6f7920f846b8, type: 3}
   heartHalf: {fileID: 2139837793675082937, guid: d9a616f95048ea84e8fc6f7920f846b8, type: 3}
   gemText: {fileID: 565923891}
-  fadeScreen: {fileID: 0}
+  fadeScreen: {fileID: 1707785209}
   fadeSpeed: 0.5
 --- !u!114 &387111003
 MonoBehaviour:
@@ -4624,7 +4624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
