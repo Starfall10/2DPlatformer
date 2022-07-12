@@ -852,3 +852,40 @@ Received Import Request.
   path: Assets/Prefab/Player.prefab
   artifactKey: Guid(736d7a8d0a8a86b498a93dc6fa9a14fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefab/Player.prefab using Guid(736d7a8d0a8a86b498a93dc6fa9a14fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae921bc04df77dd27af06b77828670b2') in 0.264540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.064239 seconds.
+  path: Assets/Prefab/Audio Manager.prefab
+  artifactKey: Guid(04dda886711897841baaa4790de3e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Audio Manager.prefab using Guid(04dda886711897841baaa4790de3e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00da2b8291bcb3025ed4d1ffed59d144') in 0.008705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.654342 seconds.
+  path: Assets/Prefab/Enemy
+  artifactKey: Guid(09ec953865aad52488b331fbfdd790fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy using Guid(09ec953865aad52488b331fbfdd790fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2187b2b1fb3d5da76bc7de80efb9348') in 0.011417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.921703 seconds.
+  path: Assets/Prefab/Enemy/Enemy Frog.prefab
+  artifactKey: Guid(285cae405619b444fae22d93689756ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Enemy Frog.prefab using Guid(285cae405619b444fae22d93689756ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982df5ecf1af06e417f7b25a342da49d') in 0.025740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.595683 seconds.
+  path: Assets/Prefab/LevelPack.prefab
+  artifactKey: Guid(5a4e42804b3786c49a9226a27f39fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/LevelPack.prefab using Guid(5a4e42804b3786c49a9226a27f39fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b1b1fa40ca3b7e2de2be0f2fbd6327') in 0.122308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.024256 seconds.
+  path: Assets/Prefab/Main Mechanics
+  artifactKey: Guid(4d906b75c79c2de4a996ef777e1b76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Mechanics using Guid(4d906b75c79c2de4a996ef777e1b76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f021cff804152d508c1b412ef853946') in 0.007031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.904230 seconds.
+  path: Assets/Prefab/LevelPack.prefab
+  artifactKey: Guid(5a4e42804b3786c49a9226a27f39fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/LevelPack.prefab using Guid(5a4e42804b3786c49a9226a27f39fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cb2302e89d861e579e1f58171a0dfa') in 0.048539 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
