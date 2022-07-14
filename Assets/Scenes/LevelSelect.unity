@@ -18121,8 +18121,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
+      propertyPath: bestTime
+      value: 34.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
       propertyPath: levelName
       value: 1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
+      propertyPath: totalGems
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
+      propertyPath: targetTime
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
       propertyPath: levelToLoad
@@ -18131,6 +18143,10 @@ PrefabInstance:
     - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
       propertyPath: levelToCheck
       value: Level1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
+      propertyPath: gemsCollected
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
