@@ -14,7 +14,7 @@ public class LSUI : MonoBehaviour
 
     public GameObject levelInfoPanel;
 
-    public Text levelName;
+    public Text levelName, gemsFound, gemsTarget, bestTime, timeTarget;
 
     private void Awake()
     {
@@ -64,6 +64,11 @@ public class LSUI : MonoBehaviour
     public void ShowInfo(MapPoint levelInfo)
     {
         levelName.text = levelInfo.levelName;
+
+        gemsFound.text = "FOUND: " + levelInfo.gemsCollected;
+        gemsTarget.text = "IN LEVEL: " + levelInfo.totalGems;
+
+        timeTarget.text = "TARGET: " + levelInfo.targetTime;
 
         levelInfoPanel.SetActive(true);
     }
