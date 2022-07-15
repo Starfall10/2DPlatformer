@@ -18,7 +18,7 @@ public class MapPoint : MonoBehaviour
         {
             if(PlayerPrefs.HasKey(levelToLoad + "_gems"))
             {
-                gemsCollected = PlayerPrefs.GetInt(levelToLoad + " _gems");
+               gemsCollected = PlayerPrefs.GetInt(levelToLoad + "_gems");
             }
 
             if(PlayerPrefs.HasKey(levelToLoad + "_time"))

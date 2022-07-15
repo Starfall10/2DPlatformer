@@ -65,7 +65,7 @@ public class LSUI : MonoBehaviour
     {
         levelName.text = levelInfo.levelName;
 
-        gemsFound.text = "FOUND: " + levelInfo.gemsCollected;
+        gemsFound.text = "FOUND: " + levelInfo.gemsCollected.ToString();
         gemsTarget.text = "IN LEVEL: " + levelInfo.totalGems;
 
         timeTarget.text = "TARGET: " + levelInfo.targetTime + "s";

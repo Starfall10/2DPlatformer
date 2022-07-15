@@ -40,6 +40,7 @@ public class LevelManager : MonoBehaviour
 
     private IEnumerator RespawnCo()
     {
+
         PlayerController.instance.gameObject.SetActive(false);
         AudioManager.instance.PlaySFX(8);
 
@@ -66,6 +67,8 @@ public class LevelManager : MonoBehaviour
 
     public IEnumerator EndlevelCo()
     {
+        Debug.Log(gemsCollected);
+
         PlayerController.instance.stopInput = true;
 
         CameraController.instance.stopFollow = true;
