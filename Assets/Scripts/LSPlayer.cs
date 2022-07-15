@@ -56,8 +56,6 @@ public class LSPlayer : MonoBehaviour
                 if(currentPoint.down != null)
                 {
                     SetNextPoint(currentPoint.down);
-
-                    
                 }
             }
 
@@ -70,6 +68,8 @@ public class LSPlayer : MonoBehaviour
                     levelLoading = true;
 
                     theManager.LoadLevel();
+
+                    AudioManager.instance.PlaySFX(4);
                 }
             }
         }
@@ -80,5 +80,7 @@ public class LSPlayer : MonoBehaviour
     {
         currentPoint = nextPoint;
         LSUI.instance.HideInfo();
+
+        AudioManager.instance.PlaySFX(5);
     }
 }
