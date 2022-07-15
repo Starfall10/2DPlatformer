@@ -458,7 +458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77, y: -68}
+  m_AnchoredPosition: {x: -77, y: -65}
   m_SizeDelta: {x: 932.31, y: 60.3614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254115780
@@ -17874,7 +17874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77, y: -14.680698}
+  m_AnchoredPosition: {x: -77, y: -7}
   m_SizeDelta: {x: 932.31, y: 60.3614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970568250
@@ -18146,7 +18146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6377822193039828142, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
       propertyPath: gemsCollected
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bb45953a38e9484d90a0b39f160b7ba, type: 3}
