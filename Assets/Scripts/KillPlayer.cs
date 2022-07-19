@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+    public GameObject deathEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class KillPlayer : MonoBehaviour
         if(other.tag == "Player")
         {
             LevelManager.instance.RespawnPlayer();
+            Instantiate(deathEffect, transform.position, transform.rotation); 
         }
     }
 }
