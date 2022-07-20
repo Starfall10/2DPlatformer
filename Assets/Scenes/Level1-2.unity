@@ -10536,6 +10536,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Smasher
       objectReference: {fileID: 0}
+    - target: {fileID: 1329148971340936905, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329148971340936910, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329148971340936910, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 110606445
+      objectReference: {fileID: 0}
     - target: {fileID: 1329148971340936911, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -10579,6 +10591,18 @@ PrefabInstance:
     - target: {fileID: 1329148971340936911, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329148971532901178, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329148972848726269, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329148973273933052, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
