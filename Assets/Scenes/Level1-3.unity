@@ -2411,6 +2411,14 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7872625930416510364, guid: 5a4e42804b3786c49a9226a27f39fe9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -94.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7872625930416510364, guid: 5a4e42804b3786c49a9226a27f39fe9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.49
+      objectReference: {fileID: 0}
     - target: {fileID: 8279667747545648686, guid: 5a4e42804b3786c49a9226a27f39fe9b, type: 3}
       propertyPath: m_Name
       value: LevelPack
