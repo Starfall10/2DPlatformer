@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4149086500475002176}
   - component: {fileID: 4149086500475002177}
   - component: {fileID: 4149086500475002190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tank Boss Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

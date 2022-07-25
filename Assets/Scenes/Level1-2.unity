@@ -10540,6 +10540,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1329148971340936908, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
+      propertyPath: moveSpeed
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1329148971340936910, guid: f96a6d1c594eccc40b83f6e8689d51c5, type: 3}
       propertyPath: m_SortingLayer
       value: 2

@@ -41,6 +41,6 @@ public class SmasherController : MonoBehaviour
     }
     public void Smash()
     {
-        currentPoint++;
+        currentPoint = 1;
     }
 }

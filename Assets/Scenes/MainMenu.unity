@@ -748,6 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startScene: Level1-1
   continueScene: LevelSelect
+  continueButton: {fileID: 1993274580}
 --- !u!1 &1768852137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1009,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1993274580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5983138608695133495, guid: b496fa4a322ec6741862d03f5b138d53, type: 3}
+  m_PrefabInstance: {fileID: 5983138608389211745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5983138608389211745
 PrefabInstance:
   m_ObjectHideFlags: 0
